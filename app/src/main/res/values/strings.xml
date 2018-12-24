@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TechnologicalReserveProject</string>
+    <string name="location">定位</string>
+    <string name="fingerprint">指纹识别</string>
+</resources>
