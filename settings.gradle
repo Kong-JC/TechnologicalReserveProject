@@ -1,1 +1,1 @@
-include ':app', ':biometriclib', ':liveRtmpPushSDK'
+include ':app', ':biometriclib', ':liveRtmpPushSDK', ':citypicker'

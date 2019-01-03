@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/cp_search_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cp_city_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/cp_overlay"
+            android:layout_width="?attr/cpOverlayWidth"
+            android:layout_height="?attr/cpOverlayHeight"
+            android:layout_centerInParent="true"
+            android:background="?attr/cpOverlayBackground"
+            android:gravity="center"
+            android:textColor="?attr/cpOverlayTextColor"
+            android:textSize="?attr/cpOverlayTextSize"
+            android:visibility="gone" />
+
+        <!--右侧字母导航-->
+        <com.zaaach.citypicker.view.SideIndexBar
+            android:id="@+id/cp_side_index_bar"
+            android:layout_width="@dimen/cp_index_bar_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <!--android:layout_below="@+id/title_bareddd"-->
+        <!--<com.gjiazhe.wavesidebar.WaveSideBar-->
+            <!--android:id="@+id/c_p_content_wsb"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:paddingRight="8dp"-->
+            <!--android:visibility="gone"-->
+            <!--app:sidebar_lazy_respond="false"-->
+            <!--app:sidebar_max_offset="80dp"-->
+            <!--app:sidebar_position="right"-->
+            <!--app:sidebar_text_alignment="center"-->
+            <!--app:sidebar_text_color="#006DCC"-->
+            <!--app:sidebar_text_size="14sp" />-->
+
+        <include layout="@layout/cp_empty_view" />
+    </RelativeLayout>
+</LinearLayout>

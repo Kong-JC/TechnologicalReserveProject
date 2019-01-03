@@ -40,4 +40,5 @@ dependencies {
     implementation project(path: ':liveRtmpPushSDK')
     // AndroidUtilCode 工具库
 //    implementation 'com.blankj:utilcode:1.22.5'
+    implementation project(path: ':citypicker')
 }
