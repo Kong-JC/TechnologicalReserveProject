@@ -21,6 +21,10 @@ android {
             dirs 'libs'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -38,7 +42,15 @@ dependencies {
     // Live Publisher
 //    implementation(name: 'NodeMediaClient-2.3.7', ext: 'aar') // 要授权
     implementation project(path: ':liveRtmpPushSDK')
+    implementation project(path: ':citypicker')
     // AndroidUtilCode 工具库
 //    implementation 'com.blankj:utilcode:1.22.5'
-    implementation project(path: ':citypicker')
+
+    // Butter Knife
+    implementation "com.jakewharton:butterknife:$rootProject.butterknifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknifeVersion"
+    // Gson
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+//    implementation 'org.jetbrains:annotations:15.0'
+
 }

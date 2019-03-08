@@ -3,11 +3,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.zaaach'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 7
         versionName "2.0.3"
 
@@ -28,8 +28,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testImplementation 'junit:junit:4.12'
-    compileOnly 'com.android.support:appcompat-v7:27.1.1'
-    compileOnly 'com.android.support:recyclerview-v7:27.1.1'
-    api 'com.android.support:design:27.1.1'
+    compileOnly 'com.android.support:appcompat-v7:28.0.0'
+    compileOnly 'com.android.support:recyclerview-v7:28.0.0'
+    api 'com.android.support:design:28.0.0'
 //    implementation 'com.gjiazhe:wavesidebar:1.3'
 }

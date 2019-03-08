@@ -2,11 +2,14 @@ package com.example.technologicalreserveproject;
 
 import android.app.Application;
 
+import com.example.technologicalreserveproject.utils.adaptive.Density;
+
 public class ProjectApplication extends Application {
 
     @Override
     public void onCreate() {
         super.onCreate();
+        Density.setDensity(this);
 //        //是否开启日志打印
 //        KLog.init(true);
 //        //配置全局异常崩溃操作

@@ -7,7 +7,7 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0-rc03'
+        classpath 'com.android.tools.build:gradle:3.3.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
         
         // NOTE: Do not place your application dependencies here; they belong
@@ -25,4 +25,24 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+//    minSdkVersion = 15
+//    targetSdkVersion = 27
+//    compileSdkVersion = 27
+//    buildToolsVersion = "28.0.3"
+
+//    supportLibraryVersion = '27.1.1'
+//    navigationVersion='1.0.0-alpha04'
+//    constraintLayoutVersion='1.1.2'
+//    junitVersion='4.12'
+//    runnerVersion='1.0.2'
+//    espressoCoreVersion='3.0.2'
+//    retrofitVersion='2.4.0'
+//    okhttpVersion='3.11.0'
+    gsonVersion='2.8.5'
+//    daggerVersion = '2.15'
+    butterknifeVersion='8.8.1'
+//    byeBurger='1.2.3'
 }

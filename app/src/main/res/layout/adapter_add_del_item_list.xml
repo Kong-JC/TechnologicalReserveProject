@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/dp_2"
+    android:layout_marginBottom="@dimen/dp_2"
+    android:layout_marginLeft="@dimen/dp_4"
+    android:layout_marginRight="@dimen/dp_4"
+    android:background="@drawable/bg_config_item_style">
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="@dimen/dp_30"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="11"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/sp_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="优先级:"
+        android:textColor="@color/c_ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNumber"
+        app:layout_constraintStart_toEndOf="@+id/tvNumber"
+        app:layout_constraintTop_toTopOf="@+id/tvNumber" />
+
+    <EditText
+        android:id="@+id/etPriority"
+        style="@style/DialogParamEditText"
+        android:layout_width="@dimen/dp_48"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:hint="000"
+        android:digits="0123456789"
+        android:maxLength="3"
+        app:layout_constraintBottom_toBottomOf="@+id/textView84"
+        app:layout_constraintStart_toEndOf="@+id/textView84"
+        app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="频率:"
+        android:textColor="@color/c_ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/etPriority"
+        app:layout_constraintStart_toEndOf="@+id/etPriority"
+        app:layout_constraintTop_toTopOf="@+id/etPriority" />
+
+    <EditText
+        android:id="@+id/etFrequency"
+        style="@style/DialogParamEditText"
+        android:layout_width="@dimen/dp_88"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:digits="0123456789."
+        android:hint="0000.00"
+        android:gravity="center"
+        android:maxLength="7"
+        app:layout_constraintBottom_toBottomOf="@+id/textView85"
+        app:layout_constraintStart_toEndOf="@+id/textView85"
+        app:layout_constraintTop_toTopOf="@+id/textView85" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etFrequency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etFrequency"
+        app:layout_constraintTop_toTopOf="@+id/etFrequency"
+        app:srcCompat="@mipmap/icon_close" />
+
+</android.support.constraint.ConstraintLayout>

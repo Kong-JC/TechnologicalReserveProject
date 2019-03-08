@@ -8,4 +8,36 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">#1B2F36</item> <!--这里可以改变菜单的背景色-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item> <!--新增一个item，用于控制menu-->
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>  <!--把该属性改为false即可使menu位置位于toolbar之下-->
+    </style>
+
+    <style name="LoginEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/c_233B43</item>
+        <item name="colorControlActivated">@color/c_0356D5</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DialogParamEditText">
+        <item name="android:layout_width">@dimen/dp_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:background">@drawable/bg_config_edittext</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingLeft">@dimen/dp_8</item>
+        <item name="android:paddingTop">@dimen/dp_7</item>
+        <item name="android:paddingRight">@dimen/dp_8</item>
+        <item name="android:paddingBottom">@dimen/dp_7</item>
+        <item name="android:textColor">@color/c_ffffff</item>
+        <item name="android:textColorHint">@color/c_546369</item>
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="android:theme">@style/LoginEditText</item>
+    </style>
+
 </resources>

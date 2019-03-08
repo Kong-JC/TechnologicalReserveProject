@@ -1,6 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#1B2F36</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorPrimaryDark">#4c65fc</color>-->
+    <color name="colorPrimaryDark">#1B2F36</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 4c81fc -->
+    <!-- 4c65fc -->
+
+    <color name="c_aaaaaa">#aaaaaa</color>
+    <color name="c_bbbbbb">#bbbbbb</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_dddddd">#dddddd</color>
+    <color name="c_eeeeee">#eeeeee</color>
+    <color name="c_ffffff">#ffffff</color>
+    <color name="c_f7f7f7">#F7F7F7</color>
+    <color name="c_e7e7e7">#E7E7E7</color>
+    <color name="c_000000">#000000</color>
+    <color name="c_444444">#444444</color>
+    <color name="c_4c65fc">#4c65fc</color>
+    <color name="c_4791ff">#4791ff</color>
+    <color name="c_664791ff">#664791ff</color>
+    <color name="c_4C81FC">#4C81FC</color>
+    <color name="c_2753fe">#2753fe</color>
+    <color name="transparent">#00000000</color>
+    <color name="c_3969fd">#3969fd</color>
+    <color name="c_4c7ffc">#4c7ffc</color>
+    <color name="c_e5e6e6">#e5e6e6</color>
+    <color name="c_e5ebff">#E5EBFF</color>
+    <color name="c_eef0f1">#EEF0F1</color>
+    <color name="c_00ffffff">#00ffffff</color>
+    <color name="c_233B43">#233B43</color>
+
+    <!--<color name="stat_category_pattern_color_on">#F6FCFA</color>-->
+    <!--<color name="stat_category_pattern_color_off">#96BFFC</color>-->
+    <color name="stat_category_pattern_color_on">#FFFFFF</color>
+    <color name="stat_category_pattern_color_off">#61787E</color>
+
+    <!--<color name="stat_area_pattern_color_on">#4791FF</color>-->
+    <!--<color name="stat_area_pattern_color_off">#999999</color>-->
+    <color name="stat_area_pattern_color_on">#FFFFFF</color>
+    <color name="stat_area_pattern_color_off">#61787E</color>
+
+    <!--<color name="stat_category_text_bg_color_1">#7577F6</color>-->
+    <!--<color name="stat_category_text_bg_color_2">#FF7776</color>-->
+    <!--<color name="stat_category_text_bg_color_3">#2DE3D6</color>-->
+    <!--<color name="stat_category_text_bg_color_4">#00E0A6</color>-->
+    <!--<color name="stat_category_text_bg_color_5">#F7D539</color>-->
+    <!--<color name="stat_category_text_bg_color_6">#4E85FF</color>-->
+    <color name="stat_category_text_bg_color_1">#1E343C</color>
+    <color name="stat_category_text_bg_color_2">#1E343C</color>
+    <color name="stat_category_text_bg_color_3">#1E343C</color>
+    <color name="stat_category_text_bg_color_4">#1E343C</color>
+    <color name="stat_category_text_bg_color_5">#1E343C</color>
+    <color name="stat_category_text_bg_color_6">#1E343C</color>
+
+    <!--<color name="stat_color_1">#0FA518</color>-->
+    <!--<color name="stat_color_2">#F96208</color>-->
+    <!--<color name="stat_color_3">#00E0A6</color>-->
+    <!--<color name="stat_color_4">#0356D5</color>-->
+    <!--<color name="stat_color_5">#FD0422</color>-->
+    <!--<color name="stat_color_6">#6B49E3</color>-->
+
+    <color name="stat_color_1">#7958E4</color>
+    <color name="stat_color_2">#FF071A</color>
+    <color name="stat_color_3">#FB5A08</color>
+    <color name="stat_color_4">#01A20A</color>
+    <color name="stat_color_5">#FFF800</color>
+    <color name="stat_color_6">#3871FD</color>
+
+    <color name="drawer_layout_bg">#88000000</color>
+
+    <!--<color name="c_4791ff">#4791ff</color>-->
+
+    <!-- BubbleSeekBar colors -->
+    <!--<color name="colorPrimary">#607D8B</color>-->
+    <!--<color name="colorPrimaryDark">#455A64</color>-->
+    <!--<color name="colorAccent">#FF9800</color>-->
+
+    <color name="color_gray">#B4B4B4</color>
+    <color name="color_green">#00b4aa</color>
+    <color name="color_red">#FF6A6E</color>
+    <color name="color_red_light">#FFB4B6</color>
+    <color name="color_blue">#03A9F4</color>
+    <color name="color_gray_light">#F5F5F5</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_b1cffd">#b1cffd</color>
+    <color name="c_7899ff">#7899FF</color>
+    <color name="c_edf1ff">#EDF1FF</color>
+    <color name="c_f5f8f7">#f5f8f7</color>
+    <color name="c_feba38">#feba38</color>
+    <color name="c_66feba38">#66feba38</color>
+    <color name="c_44feba38">#44feba38</color>
+    <color name="c_e3e3e3">#e3e3e3</color>
+    <color name="c_e9e9e9">#e9e9e9</color>
+    <color name="c_fe4742">#FE4742</color>
+    <color name="c_66fe4742">#66fe4742</color>
+    <color name="c_fedddb">#FEDDDB</color>
+    <color name="c_fc7b72">#FC7B72</color>
+    <color name="c_fe938f">#fe938f</color>
+    <color name="c_ffdcdb">#ffdcdb</color>
+    <color name="c_ff7773">#FF7773</color>
+
+    <!-- 饼状图颜色 -->
+    <color name="c_7577f6">#7577F6</color>
+    <color name="c_ff7776">#FF7776</color>
+    <color name="c_2de3d6">#2DE3D6</color>
+    <color name="c_00e0a6">#00E0A6</color>
+    <color name="c_f7d539">#F7D539</color>
+    <color name="c_4e85ff">#4E85FF</color>
+
+    <!-- 广播列表item -->
+    <color name="new_broad_item_gradient_c1">#23505e</color>
+    <color name="new_broad_item_gradient_c2">#2a6172</color>
+    <color name="new_broad_item_gradient_c3">#EB0213</color>
+    <color name="new_broad_item_gradient_c4">#508394</color>
+    <color name="new_broad_item_text_color">#aab4b9</color>
+
+    <!-- 广播item状态字色及背景 -->
+    <color name="new_broad_item_playing_state_text">#01a20a</color>
+    <color name="new_broad_item_playing_state_text_bg">#2f626f</color>
+    <color name="new_broad_item_failed_state_text">#fe4602</color>
+    <color name="new_broad_item_failed_state_text_bg">#635038</color>
+    <color name="new_broad_item_not_task_state_text">#7da0aa</color>
+    <color name="new_broad_item_not_task_state_text_bg">#4d6b75</color>
+
+    <!-- 广播列表 -->
+    <color name="new_broad_list_bg">#1b2f36</color>
+    <color name="new_broad_send_btn_bg1">#1d3037</color>
+    <color name="new_broad_send_btn_bg2">#365c64</color>
+
+    <!-- 详情页面 -->
+    <color name="new_broad_details_bg">#1B2F36</color>
+    <color name="new_broad_details_source_text_color">#8A9CA3</color>
+    <color name="new_broad_details_reuse_bg">#1E343C</color>
+    <color name="new_broad_details_reuse_btn_bg">#57111d21</color>
+
+    <color name="c_02d70e">#02d70e</color>
+    <color name="new_broad_details_playing_state_text">#02d70e</color>
+    <color name="new_broad_details_playing_state_text_bg">#22424c</color>
+    <color name="new_broad_details_failed_state_text">#ff0902</color>
+    <color name="new_broad_details_failed_state_text_bg">#39363d</color>
+    <color name="new_broad_details_not_task_state_text">#7da0aa</color>
+    <color name="new_broad_details_not_task_state_text_bg">#223b44</color>
+    <color name="new_broad_details_wait_state_text">#feba38</color>
+    <color name="new_broad_details_wait_state_text_bg">#44feba38</color>
+
+    <!-- 发布广播 -->
+    <color name="new_broad_send_option_bg_color1">#0356D5</color>
+    <color name="new_broad_send_option_bg_color2">#4791FF</color>
+    <color name="new_broad_send_option_bg_color3">#2e6a7a</color>
+    <color name="new_broad_send_item_bg_color">#23505E</color>
+    <color name="new_broad_send_item_title_color">#38FFFFFF</color>
+    <color name="new_broad_dialog_option_text_color">#5C686D</color>
+    <color name="new_broad_dialog_option_text_blue_color">#0457D6</color>
+    <color name="c_223840">#223840</color>
+    <color name="c_5c686d">#5C686D</color>
+    <color name="c_0658d7">#0658D7</color>
+    <color name="c_8A9CA3">#8A9CA3</color>
+    <color name="c_0356D5">#0356D5</color>
+    <color name="c_1B2F36">#1B2F36</color>
+    <color name="c_1E343C">#1E343C</color>
+    <color name="c_7DA0AA">#7DA0AA</color>
+    <color name="c_FFFCFD">#FFFCFD</color>
+    <color name="c_3B6069">#3B6069</color>
+    <color name="c_4D6B75">#4D6B75</color>
+    <color name="c_7E939B">#7E939B</color>
+    <color name="c_5C686D">#5C686D</color>
+    <color name="c_295B69">#295B69</color>
+    <color name="c_23505E">#23505E</color>
+    <color name="c_1F4652">#1F4652</color>
+    <color name="c_F9944C">#F9944C</color>
+    <color name="c_F9974C">#F9974C</color>
+    <color name="c_0457D6">#0457D6</color>
+    <color name="c_18292F">#18292F</color>
+    <color name="c_203B44">#203B44</color>
+    <color name="c_30606E">#30606E</color>
+    <color name="c_61787E">#61787E</color>
+    <color name="c_546369">#546369</color>
+    <color name="c_F6FCFA">#F6FCFA</color>
+    <color name="c_E7E7E7">#E7E7E7</color>
+    <color name="c_126BDA">#126BDA</color>
+    <color name="c_FD7E6C">#FD7E6C</color>
+    <color name="c_E52A3C">#E52A3C</color>
+    <color name="c_1A2D33">#1A2D33</color>
+    <color name="c_142227">#142227</color>
+    <color name="c_2A6172">#2A6172</color>
+    <color name="c_FB101F">#FB101F</color>
+    <color name="c_FCE02C">#FCE02C</color>
+    <color name="c_FB6141">#FB6141</color>
+    <color name="c_FFDF01">#FFDF01</color>
+    <color name="c_FD0303">#FD0303</color>
+    <color name="c_70868E">#70868E</color>
+    <color name="c_20363d">#20363D</color>
+    <color name="c_2B4850">#2B4850</color>
+    <color name="c_2E6A7B">#2E6A7B</color>
+    <color name="c_ffb503">#ffb503</color>
+
+    <color name="c_03bcff">#03bcff</color>
+
+    <!--<color name="colorAccent">#EC625F</color>-->
+    <color name="colorStart">#662D8C</color>
+    <color name="colorEnd">#ED1E79</color>
+
 </resources>
